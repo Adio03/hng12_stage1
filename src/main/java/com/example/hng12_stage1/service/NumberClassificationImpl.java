@@ -53,10 +53,12 @@ public class NumberClassificationImpl implements NumberClassificationService {
     }
 
     private boolean isArmstrong(int num) {
-        int sum = 0, original = num, digits = String.valueOf(num).length();
+        int sum = 0;
+        int original = num;
+        int digits = String.valueOf(num).length();
         while (original > 0) {
             int digit = original % 10;
-            sum += Math.pow(digit, digits);
+            sum += (int) Math.pow(digit, digits);
             original /= 10;
         }
         return sum == num;

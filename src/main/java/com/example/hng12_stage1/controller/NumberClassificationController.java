@@ -16,7 +16,7 @@ public class NumberClassificationController {
     @Autowired
     private NumberClassificationService numberClassificationService;
 
-    @GetMapping("getclassifynumber")
+    @GetMapping("classify-number")
     public Map<String, Object> getNumberClassification(@RequestParam("number") String number) {
         return numberClassificationService.getClassifyNumber(number);
     }
