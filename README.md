@@ -4,30 +4,30 @@ Description
 A simple Spring Boot API that classifies numbers based on their mathematical properties and provides a fun fact.
 
 Tech Stack
-Java ☕
-Spring Boot 🌱
+Java 
+Spring Boot
 RestTemplate for external API calls
-Deployed on Render.app 🚀
+Deployed on Render.app 
 
-## 🌍 Live API Endpoint
-🚀 **Base URL:**  
-https://hng12-number-classifier-production.up.railway.app/api/classify-number?number=371
+## Live API Endpoint
+ **Base URL:**  
+[https:https://hng12-stage1-8wt0.onrender.com/api/getclassifynumber?number=10
 
-📌 Request:
+ Request:
 ```bash
-curl https://hng12-number-classifier-production.up.railway.app/api/classify-number?number=371
+curl https://hng12-stage1-8wt0.onrender.com/api/getclassifynumber?number=10
 
  Response:
   ```json
 {
-    "number": 10,
-    "is_prime": false,
-    "is_perfect": false,
-    "properties": [
-        "even"
-    ],
-    "digit_sum": 1,
-    "fun_fact": "10 is the aliquot sum of only one number the discrete semiprime 14."
+  "number": 10,
+  "is_prime": false,
+  "is_perfect": false,
+  "properties": [
+    "even"
+  ],
+  "digit_sum": 1,
+  "fun_fact": "10 is a semi-meandric number."
 }
 
 🚀 Features
@@ -41,10 +41,10 @@ curl https://hng12-number-classifier-production.up.railway.app/api/classify-numb
 🛠️ Running Locally
 Clone the repository:
 sh
-https://github.com/Scepter00/HNG12-Number-Classifier.git
+ https://github.com/Adio03/hng12_stage1.git
 Navigate to the project:
 sh
-cd HNG12-Number-Classifier
+cd hng12_stage1
 Run the application:
 sh
 ./mvnw spring-boot:run
