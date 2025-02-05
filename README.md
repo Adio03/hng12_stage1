@@ -11,23 +11,24 @@ Deployed on Render.app
 
 ## Live API Endpoint
  **Base URL:**  
-[https:https://hng12-stage1-8wt0.onrender.com/api/getclassifynumber?number=10
+[https:https://hng12-stage1-8wt0.onrender.com/api/getclassifynumber?number=371
 
  Request:
 ```bash
-curl https://hng12-stage1-8wt0.onrender.com/api/getclassifynumber?number=10
+curl https://hng12-stage1-8wt0.onrender.com/api/getclassifynumber?number=371
 
  Response:
   ```json
 {
-  "number": 10,
+  "number": 371,
   "is_prime": false,
   "is_perfect": false,
   "properties": [
-    "even"
+    "armstrong",
+    "odd"
   ],
-  "digit_sum": 1,
-  "fun_fact": "10 is a semi-meandric number."
+  "digit_sum": 11,
+  "fun_fact": "371 is a narcissistic number."
 }
 
 🚀 Features
