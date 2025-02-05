@@ -20,14 +20,15 @@ curl https://hng12-stage1-8wt0.onrender.com/api/classify-number?number=371
  Response:
   ```json
 {
-    "number": 10,
-    "is_prime": false,
-    "is_perfect": false,
-    "properties": [
-        "even"
-    ],
-    "digit_sum": 1,
-    "fun_fact": "10 is the aliquot sum of only one number the discrete semiprime 14."
+  "number": 371,
+  "is_prime": false,
+  "is_perfect": false,
+  "properties": [
+    "armstrong",
+    "odd"
+  ],
+  "digit_sum": 11,
+  "fun_fact": "371 is a narcissistic number."
 }
 
 🚀 Features
