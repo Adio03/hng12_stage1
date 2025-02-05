@@ -7,11 +7,11 @@ Tech Stack
 Java ☕
 Spring Boot 🌱
 RestTemplate for external API calls
-Deployed on Render.app 🚀
+Deployed on Render.app 
 
-## 🌍 Live API Endpoint
-🚀 **Base URL:**  
-https://hng12-number-classifier-production.up.railway.app/api/classify-number?number=371
+## Live API Endpoint
+ **Base URL:**  
+[https:https://hng12-stage1-8wt0.onrender.com/api/classify-number?number=371
 
 📌 Request:
 ```bash
@@ -50,4 +50,4 @@ sh
 ./mvnw spring-boot:run
 Access it at:
 bash
-http://localhost:8090/api/getclassifynumber?number=10
+http://localhost:8090/api/classify-number?number=371
