@@ -4,8 +4,8 @@ Description
 A simple Spring Boot API that classifies numbers based on their mathematical properties and provides a fun fact.
 
 Tech Stack
-Java ☕
-Spring Boot 🌱
+Java 
+Spring Boot 
 RestTemplate for external API calls
 Deployed on Render.app 
 
@@ -13,9 +13,9 @@ Deployed on Render.app
  **Base URL:**  
 [https:https://hng12-stage1-8wt0.onrender.com/api/classify-number?number=371
 
-📌 Request:
+ Request:
 ```bash
-curl https://hng12-number-classifier-production.up.railway.app/api/classify-number?number=371
+curl https://hng12-stage1-8wt0.onrender.com/api/classify-number?number=371
 
  Response:
   ```json
@@ -41,10 +41,10 @@ curl https://hng12-number-classifier-production.up.railway.app/api/classify-numb
 🛠️ Running Locally
 Clone the repository:
 sh
-https://github.com/Scepter00/HNG12-Number-Classifier.git
+ https://github.com/Adio03/hng12_stage1.git
 Navigate to the project:
 sh
-cd HNG12-Number-Classifier
+cd hng12_stage1
 Run the application:
 sh
 ./mvnw spring-boot:run
